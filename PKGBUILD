@@ -9,7 +9,7 @@ _git="false"
 _proj="aa-project"
 pkgname=aview
 _majver="1.3.0"
-_minver="rc1"
+_minver="rc2"
 pkgver="${_majver}_${_minver}"
 _pkgver="${_majver}${_minver}"
 _commit="d789eadd3a61b08ce458b199721b68af5d60dde2"
@@ -36,6 +36,9 @@ depends=(
 )
 makedepends=(
   'autoconf'
+)
+provides=(
+  "asciiview=${pkgver}"
 )
 _gh="https://github.com"
 _http="${_gh}"
