@@ -31,6 +31,8 @@ license=(
 )
 depends=(
   'aalib'
+  'imagemagick'
+  'netpbm'
 )
 makedepends=(
   'autoconf'
