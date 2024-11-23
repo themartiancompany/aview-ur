@@ -66,7 +66,7 @@ sha256sums=(
 
 build() {
   cd \
-    "${srcdir}/${pkgname}-${_majver}"
+    "${_tarname}"
   autoreconf \
     -i
   ./configure \
@@ -77,7 +77,7 @@ build() {
 
 package() {
   cd \
-    "${srcdir}/${pkgname}-${_majver}"
+    "${_tarname}"
   make \
     DESTDIR="${pkgdir}" \
     PREFIX="/usr" \
