@@ -32,7 +32,9 @@ license=(
 depends=(
   'aalib'
 )
-makedepends=()
+makedepends=(
+  'autoconf'
+)
 _gh="https://github.com"
 _http="${_gh}"
 _ns="themartiancompany"
@@ -65,6 +67,8 @@ sha256sums=(
 build() {
   cd \
     "${srcdir}/${pkgname}-${_majver}"
+  autoreconf \
+    -i
   ./configure \
     --prefix=/usr \
     --mandir=/usr/share/man
