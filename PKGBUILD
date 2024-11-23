@@ -12,8 +12,8 @@ _majver="1.3.0"
 _minver="rc1"
 pkgver="${_majver}_${_minver}"
 _pkgver="${_majver}${_minver}"
-_commit="8f32fa141eabc27399487ca094e0040468b6042e"
-pkgrel=3
+_commit="f64b212ac7cd24f4c65064611bfd33612e74146f"
+pkgrel=1
 pkgdesc="an high quality ascii-art image browser"
 arch=(
   'i686'
