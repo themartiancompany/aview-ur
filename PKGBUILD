@@ -12,7 +12,7 @@ _majver="1.3.0"
 _minver="rc1"
 pkgver="${_majver}_${_minver}"
 _pkgver="${_majver}${_minver}"
-_commit="8010caff18b1b7eba62b5adba91f2d88084a183e"
+_commit="8f32fa141eabc27399487ca094e0040468b6042e"
 pkgrel=3
 pkgdesc="an high quality ascii-art image browser"
 arch=(
@@ -54,7 +54,7 @@ elif [[ "${_git}" == false ]]; then
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _src="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum='a6ec10857c5dfe31ac7876e6426a2d79e54f5ccd69fd694607da434b781034c5'
+    _sum='985876506fc6a34026e75f30e9946beb8edab8f275b7e69b8fe0ddd82d67de9b'
   fi
 fi
 source=(
